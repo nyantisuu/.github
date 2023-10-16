@@ -25,7 +25,7 @@ The mostly utilized technologies are: Express, Typescript, PrismaORM, Gluegun, F
 - [ ] Watchers builder.
 - [ ] Command and helper builder auto integration and populate.
 
-### Legenda
+### Definition list
 - **Builder** - Constructor Class, they can wrap other libs or no, they will bring a easier syntax and normally will build/rebuild something for you, from buttons, button rows, embedded messages on discord or even create a command for you.
 - **Selector** - Selector Class, they will wrap complex functions and resume it for you with a comprehensive name, their function can be resumed as: "they select things for you", from servers your bot are currently on to users it have access and their respective roles etc.
 - **Watcher** - Class used to set an event watcher, with Event-Driven logic, an example use case would be: i want you to watch every time {THIS SPECIFIC USER}(watch) {SAYS: letsgo!}(condition). {THEN MAKE THIS ACTION}(action).
